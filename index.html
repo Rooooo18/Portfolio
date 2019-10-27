@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
 
@@ -19,7 +19,7 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
+  <link href="css/resume.css" rel="stylesheet">
 
 </head>
 
@@ -32,7 +32,8 @@
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
       </span>
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -50,7 +51,7 @@
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Portfolio</a>
+          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
         </li>
       </ul>
     </div>
@@ -63,7 +64,10 @@
         <h1 class="mb-0">Yuichiro
           <span class="text-primary">Hirata</span>
         </h1>
-        <p class="lead mb-5">Webアプリケーションの開発を行っています。<br>PHP・MySQLを使った開発（設計・コーディング・テスト・保守）の業務をメインでやっています。</p>
+        <div class="subheading mb-5">
+          <a href="mailto:roo.hirata18@gmail.com">roo.hirata18@gmail.com</a>
+        </div>
+        <p class="lead mb-5">LAMP環境でのWebアプリケーション開発業務をメインでやっています。</p>
         <div class="social-icons">
           <a href="https://github.com/Rooooo18" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-github"></i>
@@ -159,25 +163,98 @@
         <div class="subheading mb-3">Workflow</div>
         <ul class="fa-ul mb-0">
           <li>
-            <i class="fa-li fa fa-check"></i>
-            Webアプリケーションの制作（PHP・MySQL）</li>
+            <i class="fa-li fa fa-check-square my-green"></i>
+            Webアプリケーションの制作（LAMP環境）
+          </li>
           <li>
-            <i class="fa-li fa fa-check"></i>
-            コーポレートサイトの制作（CMS組み込み）</li>
+            <i class="fa-li fa fa-check-square my-green"></i>
+            Webサイトの制作（CMS組み込み）
+          </li>
           <li>
-            <i class="fa-li fa fa-check"></i>
-            Webサーバ構築（CentOS）</li>
+            <i class="fa-li fa fa-check-square my-green"></i>
+            Webサーバ構築（CentOS）
+          </li>
           <li>
+            <i class="fa-li fa fa-square"></i>
+            Node.js勉強中...
+          </li>
         </ul>
       </div>
     </section>
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="portfolio">
       <div class="w-100">
         <h2 class="mb-5">Portfolio</h2>
-        <p>作成中...</p>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-3"><a href="https://obscure-lowlands-60893.herokuapp.com/posts" target="_blank"
+                rel="noopener noreferrer">匿名掲示板</a>（N予備校課題）</h3>
+            <table class="table table-striped table-bordered table-condensed">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>使用言語/技術</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>フロントエンド</th>
+                  <td>HTML5/Javascript/Bootstrap</td>
+                </tr>
+                <tr>
+                  <th>バックエンド</th>
+                  <td>Node.js</td>
+                </tr>
+                <tr>
+                  <th>データベース</th>
+                  <td>PostgreSQL</td>
+                </tr>
+                <tr>
+                  <th>サーバ</th>
+                  <td>Heroku</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-3"><a href="https://lit-reaches-40010.herokuapp.com/" target="_blank" rel="noopener noreferrer">予定調整くん</a>（N予備校課題）</h3>
+          </div>
+        </div>
+        <table class="table table-striped table-bordered table-condensed">
+          <thead>
+            <tr>
+              <th></th>
+              <th>使用言語/技術</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>フロントエンド</th>
+              <td>HTML5/Javascript/jQuery/webpack/Bootstrap</td>
+            </tr>
+            <tr>
+              <th>バックエンド</th>
+              <td>Node.js/Express/mocha</td>
+            </tr>
+            <tr>
+              <th>データベース</th>
+              <td>PostgreSQL</td>
+            </tr>
+            <tr>
+              <th>サーバ</th>
+              <td>Heroku</td>
+            </tr>
+            <tr>
+              <th>GitHub</th>
+              <td><a href="https://github.com/Rooooo18/schedule-arranger" target="_blank" rel="noopener noreferrer">https://github.com/Rooooo18/schedule-arranger</a></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </section>
 
